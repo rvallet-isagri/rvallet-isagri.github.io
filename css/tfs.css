@@ -1,0 +1,2 @@
+.swimlane-collapsed .swimlane-header-title { overflow: hidden !important }
+.swimlane-header-title { overflow: visible !important } 

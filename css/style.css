@@ -1,0 +1,26 @@
+body { 
+	font: 1.1em semi-bold Tahoma, sans-serif; 
+	background-color: #fff9f0;
+	max-width: 50em;
+	margin: 5em auto;	
+}
+
+body, a {
+	color: #211f1a;
+}
+
+figure {
+	text-align: center;
+}
+
+li {
+	margin: 0.4em;
+}
+
+@media (prefers-color-scheme: dark) {
+	body, a {
+		color: #fff9f0;
+		background-color: #211f1a;
+	}
+}
+

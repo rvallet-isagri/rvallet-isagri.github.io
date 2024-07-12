@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text">Gallerie d'extensions de Romain</title>
+    <id>uuid:4b4a95ce-ef58-400d-9774-9eebb655a4a8;id=1</id>
+    <updated>2024-07-12T08:00:00Z</updated>
+    <entry>
+        <id>AzdoHistory.2320164f-414e-4209-8de3-cbae245896a1</id>
+        <title type="text">Historique AZDO</title>
+        <summary type="text">Affiche l'historique d'un fichier sur azdo.groupeisagri.com</summary>
+        <published>2024-07-12T08:00:00Z</published>
+        <updated>2024-07-12T08:00:00Z</updated>
+        <author>
+            <name>Romain Vallet</name>
+        </author>
+        <content type="application/octet-stream" src="AzdoHistory.vsix" />
+        <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Id>AzdoHistory.2320164f-414e-4209-8de3-cbae245896a1</Id>
+            <Version>1.0</Version>
+            <References />
+            <Rating xsi:nil="true" />
+            <RatingCount xsi:nil="true" />
+            <DownloadCount xsi:nil="true" />
+        </Vsix>
+    </entry>
+</feed>
