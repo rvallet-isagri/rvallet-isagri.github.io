@@ -1,21 +1,18 @@
 // ==UserScript==
-// @name         Ajustements TFS
+// @name         Ajustements Azure DevOps
 // @namespace    rvallet.isagri.fr
-// @version      1.1
-// @description  Effectue des ajustements dans TFS
+// @version      1.2
+// @description  Effectue des ajustements dans Azure DevOps
 // @author       Romain Vallet
-// @match        http://tfs:8080/tfs/*
-// @match        https://azdo.groupeisagri.com/tfs/*
+// @match        https://dev.azure.com/*
 // @grant        GM_addStyle
 // ==/UserScript==
 
 (function() {
     'use strict';
     GM_addStyle(`
-        .swimlane-collapsed .swimlane-header-title {
-            overflow: hidden !important
-        }
-        .swimlane-header-title {
+        .kanban-board-row.expanded .kanban-board-row-header .text-ellipsis
+        {
             overflow: visible !important;
             max-width: max-content !important;
             min-width: 10em;
