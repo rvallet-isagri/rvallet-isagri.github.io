@@ -1,8 +1,13 @@
+html {
+	background-color: #DEECF9;
+}
+
 body { 
-	font: 1.1em semi-bold Tahoma, sans-serif; 
-	background-color: #fff9f0;
+	background-color: #fffefd;
+	font: 1em semi-bold Tahoma, sans-serif; 
 	max-width: 50em;
-	margin: 5em auto;	
+	margin: 0 auto;	
+	padding: 1em 3em;
 }
 
 body, a {
@@ -23,4 +28,3 @@ li {
 		background-color: #211f1a;
 	}
 }
-
